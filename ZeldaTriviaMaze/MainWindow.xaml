@@ -1,0 +1,15 @@
+﻿<Window x:Name="MainMenu" x:Class="ZeldaTriviaMaze.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Zelda Trivia Maze" Height="350" Width="525" Icon="favicon.ico" Loaded="PlaySong">
+    <Grid>
+        <Button x:Name="NewGameButton" Content="New Game" HorizontalAlignment="Left" Height="34" Margin="22,258,0,0" VerticalAlignment="Top" Width="140" ToolTip="Start a New Game" Click="NewGameButton_Click"/>
+        <Button x:Name="LoadGameButton" Content="Load Game" HorizontalAlignment="Left" Height="34" Margin="183,258,0,0" VerticalAlignment="Top" Width="140" ToolTip="Load a previously saved game" Click="LoadGame_Click"/>
+        <Button x:Name="ExitGameButton" Content="Exit" HorizontalAlignment="Left" Height="34" Margin="352,258,0,0" VerticalAlignment="Top" Width="140" Click="ExitGameButton_Click" ToolTip="Exit the game"/>
+        <Label x:Name="TriviaMaveLogo" Content="Trivia Maze" HorizontalAlignment="Left" Height="51" Margin="183,184,0,0" VerticalAlignment="Top" Width="139" FontSize="24"/>
+        <Image HorizontalAlignment="Left" Height="156" Margin="65,28,0,0" VerticalAlignment="Top" Width="395" Source="830px-the_legend_of_zelda_logo.jpg"/>
+        <MediaElement x:Name="ZeldaThemeMediaElement" HorizontalAlignment="Left" Height="30" Margin="22,205,0,0" VerticalAlignment="Top" Width="114" Source="The Legend of Zelda - NES - Overworld.mp3" LoadedBehavior="Manual" Volume="1.0"/>
+
+
+    </Grid>
+</Window>
